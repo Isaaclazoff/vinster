@@ -1,0 +1,21 @@
+<div class="genie-box col-xs-6 col-xs-offset-3 text-center">
+
+<h2>
+	Make me Laugh !!!!!	
+	</h2>
+
+<br/>
+<br/>
+ 
+	<%=  simple_form_for @post do |f| %>
+		<%= f.input :title, label: 'What is it', placeholder: 'drunk monekry swimming' %>
+		<br/>
+		<%= f.input :description, label:'Tell me more, tell me more', placeholder: 'BOOM' %>
+		<%= f.button :submit, label:'btn btn-warning' %>
+
+	<% end %>
+
+
+
+
+	</div>
