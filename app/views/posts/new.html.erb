@@ -10,8 +10,17 @@
 	<%=  simple_form_for @post do |f| %>
 		<%= f.input :title, label: 'What is it', placeholder: 'drunk monekry swimming' %>
 		<br/>
+
 		<%= f.input :description, label:'Tell me more, tell me more', placeholder: 'BOOM' %>
+			<br/>
+
+		<%= f.input :image %>
+			<br/>
+			
 		<%= f.button :submit, label:'btn btn-warning' %>
+		<br/>
+
+
 
 	<% end %>
 
